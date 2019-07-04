@@ -1,0 +1,70 @@
+.footer {
+    background-color: #0d90db;
+    padding-top: 80px;
+    color: #65aed4;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.footer-line {
+    border-color: #152e3d;
+}
+
+.footer-widget {
+    padding-bottom: 50px;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-widget ul li {
+    color: #fff;
+}
+
+.footer-widget ul li a {
+    text-transform: capitalize;
+    font-size: 17px;
+    color: #fff;
+    text-emphasis-color: #fff;
+    display: block;
+    font-weight: 600;
+}
+
+.footer-widget ul li a:hover {
+    color: #fff;
+}
+
+.newsletter-form {
+    padding-top: 15px;
+}
+
+.newsletter-form .form-control {
+    background-color: #1e2e38;
+    border-color: #1e2e38;
+}
+
+.newsletter-form .form-control:focus {
+    color: rgb(0, 0, 0);
+}
+
+.newsletter-form input::-webkit-input-placeholder {
+    color: rgb(2, 0, 0) !important;
+}
+
+.newsletter-form input:focus::-webkit-input-placeholder {
+    color: rgb(0, 0, 0) !important;
+}
+
+.tiny-footer {
+    font-size: 14px;
+    padding: 14px 0px;
+    font-weight: 600;
+    background-color: transparent;
+    border-top: 1px solid #152e3d;
+    color: #ffffff;
+    line-height: 1;
+}
