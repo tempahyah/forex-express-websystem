@@ -6,7 +6,7 @@
     
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
-    
+        
         <title>{{ config('app.name', 'ForexExpress') }}</title>
     
         <!-- Scripts -->
@@ -21,6 +21,7 @@
         <link href="{{ asset('css/custom_file.css') }}" rel="stylesheet">
         <link href="{{ asset('css/footercss.css') }}" rel="stylesheet">
         <link href="{{ asset('css/contact-page.css') }}" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 
 
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -59,7 +60,7 @@
                             @endif
                         @else
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/') }}">Home</a>
+                            <a class="nav-link" href="{{ url('/') }}"><i class="fas fa-home"></i> Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('bureaus.index') }}"><i class="fas fa-building"></i> Bureaus</a>

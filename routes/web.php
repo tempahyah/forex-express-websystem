@@ -21,6 +21,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/team', 'PagesController@team');
 Route::get('/about', 'PagesController@about');
 Route::get('/contact', 'PagesController@contact');
+Route::get('/convert', 'ConvertCurrencyController@convertCurrency');
 Route::resource('bureaus', 'BureausController');
 Route::resource('rates', 'RatesController');
 Route::resource('currencies', 'CurrenciesController');

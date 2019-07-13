@@ -51,7 +51,7 @@
                                                 id="rate"
                                                 required
                                                 name="rate"
-                                                type="number"
+                                              
                                                 style="width:600px"
                                                 spellcheck="false"
                                                 class="form-control"

@@ -13,6 +13,16 @@ use Illuminate\Http\Request;
 class RatesController extends Controller
 {
     /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
@@ -28,6 +38,8 @@ class RatesController extends Controller
 
         return view('rates.index',['rates'=> $rates]);
     }
+
+    
 
     /**
      * Show the form for creating a new resource.

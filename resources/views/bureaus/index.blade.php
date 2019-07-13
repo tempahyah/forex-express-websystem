@@ -9,8 +9,8 @@
                 <div class="container" style="margin-top:20px">
                         <form>
                             <div class="form-group has-feedback has-feedback-left">
-                                <input  placeholder= "Search Forex Bureau"
-                                        id="bureaus"
+                                <input  placeholder="&#xF002; Search For Forex Bureau" style="font-family:Arial, FontAwesome"
+                                        id="bureaus" 
                                         type="search"
                                         class="form-control"
                                 />

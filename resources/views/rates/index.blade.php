@@ -9,7 +9,7 @@
                 <div class="card-body">
                     <form action="">
                             <div class="form-group">
-                                    <input placeholder= "Search Forex Bureau"
+                                    <input placeholder= "&#xF002; Search For Forex Bureau" style="font-family:Arial, FontAwesome"
                                             id="rate"
                                             class="form-control"
                                             />
@@ -17,10 +17,10 @@
                     </form>
                         <table class="table table-stripped">
                                 <tr>
-                                    <th>Bureau</th>
-                                    <th>Currency</th>
-                                    <th>Rate</th>
-                                    <th>Mode</th>
+                                    <th><h4 class="text-primary">Bureau</h4></th>
+                                    <th><h4 class="text-primary">Currency</h4></th>
+                                    <th><h4 class="text-primary">Rate</h4></th>
+                                    <th><h4 class="text-primary">Mode</h4></th>
                                     <th></th>
                                     <th></th>
                                 </tr>

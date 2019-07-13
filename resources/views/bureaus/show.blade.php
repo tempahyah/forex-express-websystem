@@ -76,7 +76,9 @@
                             <br>
                             <ol class="list-unstyled">
                                 <li><a href="/bureaus/{{ $bureau->id }}/edit"><i class="fas fa-edit"></i>  Edit Bureau Details</a></li><br>
-                                <li><a href="/bureaus"><i class="fas fa-university"></i>  Forex Bureaus</a></li><br><br>
+                                <li><a href="/bureaus"><i class="fas fa-university"></i>  Forex Bureaus</a></li><br>
+                                <li><a href="/rates/create"><i class="fas fa-plus"></i> Add Rate</a></li><br><br>
+
                                 <hr>
                                 {{--  Delete  --}}
                                 <li>
